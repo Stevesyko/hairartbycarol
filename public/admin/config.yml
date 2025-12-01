@@ -1,0 +1,276 @@
+# ==============================
+# 🟢 CMS CONFIGURATION
+# ==============================
+
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+# Enable editorial workflow for better content management
+publish_mode: simple
+
+# ==============================
+# 🗂️ CMS Collections
+# ==============================
+
+collections:
+  - name: "pages"
+    label: "Website Pages"
+    files:
+
+      # ======================
+      # ✅ Home Page
+      # ======================
+      - file: "src/content/home.json"
+        label: "Home Page"
+        name: "home"
+        fields:
+          # ✅ HERO
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Subtitle", name: "hero_subtitle", widget: "string" }
+          - { label: "Hero Height", name: "hero_height", widget: "string", default: "h-[60vh]" }
+          - { label: "Hero Spacing", name: "hero_spacing", widget: "string", default: "py-8 px-6 bg-background" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+          - { label: "Hero Image Alt", name: "hero_image_alt", widget: "string" }
+
+          # ✅ ABOUT CAROLINE - FIXED: Individual text fields
+          - { label: "About Caroline Title", name: "about_title", widget: "string" }
+          - { label: "About Caroline Paragraph 1", name: "about_para1", widget: "text" }
+          - { label: "About Caroline Paragraph 2", name: "about_para2", widget: "text" }
+          - { label: "About Caroline Paragraph 3", name: "about_para3", widget: "text" }
+          - { label: "About Caroline Image", name: "about_image", widget: "image" }
+          - { label: "About Caroline Image Alt Text", name: "about_image_alt", widget: "string" }
+
+          # ✅ Featured Services
+          - label: "Featured Services"
+            name: "featured_services"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+
+          # ✅ Featured Products
+          - { label: "Products Title", name: "products_title", widget: "string" }
+          - { label: "Products Description", name: "products_description", widget: "text" }
+          - label: "Featured Products"
+            name: "featured_products"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+
+          # ✅ Reviews
+          - { label: "Reviews Title", name: "reviews_title", widget: "string" }
+          - { label: "Reviews Description", name: "reviews_description", widget: "text" }
+          - label: "Reviews List"
+            name: "reviews"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5, step: 1 }
+              - { label: "Comment", name: "comment", widget: "text" }
+              - { label: "Date", name: "date", widget: "string" }
+
+          # ✅ Gallery
+          - { label: "Gallery Title", name: "gallery_title", widget: "string" }
+          - { label: "Gallery Description", name: "gallery_description", widget: "text" }
+          - label: "Gallery Images"
+            name: "gallery_images"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
+
+          # ✅ Stats
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Number", name: "number", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+
+          # ✅ CTA
+          - { label: "CTA Title", name: "cta_title", widget: "string" }
+          - { label: "CTA Description", name: "cta_description", widget: "text" }
+          - { label: "CTA Closing", name: "cta_closing", widget: "string" }
+
+      # ======================
+      # ✅ About Page
+      # ======================
+      - file: "src/content/about.json"
+        label: "About Page"
+        name: "about"
+        fields:
+          # ✅ HERO
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Subtitle", name: "hero_subtitle", widget: "string" }
+          - { label: "Hero Height", name: "hero_height", widget: "string", default: "h-[60vh]" }
+          - { label: "Hero Spacing", name: "hero_spacing", widget: "string", default: "py-8 px-6 bg-background" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+          - { label: "Hero Image Alt", name: "hero_image_alt", widget: "string" }
+
+          # ✅ STORY SECTION (removed in UI)
+          # Fields removed to match current site (section no longer rendered)
+
+          # ✅ ABOUT CAROLINE SECTION - FIXED: Individual text fields
+          - { label: "About Caroline Title", name: "about_caroline_title", widget: "string" }
+          - { label: "About Caroline Paragraph 1", name: "about_caroline_para1", widget: "text" }
+          - { label: "About Caroline Paragraph 2", name: "about_caroline_para2", widget: "text" }
+          - { label: "About Caroline Paragraph 3", name: "about_caroline_para3", widget: "text" }
+          - { label: "About Caroline Paragraph 4", name: "about_caroline_para4", widget: "text" }
+
+          # ✅ TEAM SECTION
+          - { label: "Team Title", name: "team_title", widget: "string" }
+          - { label: "Team Description", name: "team_description", widget: "text" }
+          - label: "Team Members"
+            name: "team"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Bio", name: "bio", widget: "text" }
+
+          # ✅ PROCESS SECTION
+          - { label: "Process Title", name: "process_title", widget: "string" }
+          - { label: "Process Description", name: "process_description", widget: "text" }
+          - label: "Process Steps"
+            name: "process_steps"
+            widget: "list"
+            fields:
+              - { label: "Step Number", name: "step", widget: "number" }
+              - { label: "Step Title", name: "title", widget: "string" }
+              - { label: "Step Description", name: "description", widget: "text" }
+
+      # ======================
+      # ✅ Services Page
+      # ======================
+      - file: "src/content/services.json"
+        label: "Services Page"
+        name: "services"
+        fields:
+          # ✅ HERO
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Height", name: "hero_height", widget: "string", default: "h-[60vh]" }
+          - { label: "Hero Spacing", name: "hero_spacing", widget: "string", default: "py-8 px-6 bg-background" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+          - { label: "Hero Image Alt", name: "hero_image_alt", widget: "string" }
+          
+          - { label: "Intro", name: "intro", widget: "text" }
+          - { label: "Disclaimer", name: "disclaimer", widget: "text" }
+
+          - label: "Service Categories"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", required: false }
+              - { label: "Icon", name: "icon", widget: "select", options: ["Scissors", "Palette", "Wind", "User", "Link2", "Grid", "Layers", "Heart", "Lock", "Sparkles", "Users", "MoreHorizontal"] }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle / Description", name: "description", widget: "text", required: false }
+              - label: "Services List"
+                name: "services"
+                widget: "list"
+                summary: "{{fields.title}} - {{fields.price}}"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+                  - { label: "Duration", name: "duration", widget: "string", required: false }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Image", name: "image", widget: "image" }
+
+      # ======================
+      # ✅ Shop Page
+      # ======================
+      - file: "src/content/shop.json"
+        label: "Shop Page"
+        name: "shop"
+        fields:
+          # ✅ HERO
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Height", name: "hero_height", widget: "string", default: "h-[60vh]" }
+          - { label: "Hero Spacing", name: "hero_spacing", widget: "string", default: "py-8 px-6 bg-background" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+          - { label: "Hero Image Alt", name: "hero_image_alt", widget: "string" }
+          
+          - { label: "Intro", name: "intro", widget: "text" }
+          
+          # ✅ PRODUCT CATEGORIES
+          - label: "Product Categories"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Products"
+                name: "products"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Image", name: "image", widget: "image" }
+
+          # ✅ FEATURED PRODUCTS
+          - label: "Featured Products"
+            name: "featured_products"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+
+      # ======================
+      # ✅ Reviews Page - UPDATED
+      # ======================
+      - file: "src/content/reviews.json"
+        label: "Reviews Page"
+        name: "reviews"
+        fields:
+          # ✅ HERO
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Subtitle", name: "hero_subtitle", widget: "string" }
+          - { label: "Hero Height", name: "hero_height", widget: "string", default: "h-[60vh]" }
+          - { label: "Hero Spacing", name: "hero_spacing", widget: "string", default: "py-8 px-6 bg-background" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+          - { label: "Hero Image Alt", name: "hero_image_alt", widget: "string" }
+          
+          - { label: "Intro", name: "intro", widget: "text" }
+          - { label: "Average Rating", name: "average_rating", widget: "number", min: 1, max: 5, step: 0.1, value: 5 }
+          - { label: "Total Reviews", name: "total_reviews", widget: "number", value: 50 }
+          
+          # ✅ TESTIMONIALS (for featured quotes)
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            summary: "{{fields.author}} - {{fields.quote}}"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5, step: 1, value: 5 }
+
+          # ✅ REVIEWS LIST (main reviews data)
+          - label: "Reviews"
+            name: "reviews"
+            widget: "list"
+            summary: "{{fields.name}} - {{fields.rating}}⭐ - {{fields.date}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", pattern: ['^[0-9]+$', 'Must be a number'] }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5, step: 1, value: 5 }
+              - { label: "Comment", name: "comment", widget: "text" }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss.SSSZ", date_format: "YYYY-MM-DD", time_format: "HH:mm" }
+              - { label: "Source", name: "source", widget: "select", options: ["google", "manual", "vagaro", "yelp"], default: "google" }
+              - { label: "Verified", name: "verified", widget: "boolean", default: true }

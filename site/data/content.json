@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "Luxury Hair & Beauty, Redefined",
+    "subtitle": "Experience the art of transformation",
+    "ctaPrimary": { "label": "Book Appointment", "href": "#contact" },
+    "ctaSecondary": { "label": "View Services", "href": "#services" }
+  },
+  "services": [],
+  "products": [],
+  "reviews": []
+}

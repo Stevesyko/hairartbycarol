@@ -1,0 +1,99 @@
+{
+  "about_para2": "Our mission is simple: to create a space where women feel seen, valued, and confident. We believe beauty starts from the foundation;… a healthy scalp, a good hair routine, and self-care that shines through.\n\nCaroline’s passion for hair goes beyond styling. With years of experience working with different textures and transformations, she’s built HABC as a place where women can relax, learn about their hair, and walk out looking and feeling renewed.\n",
+  "hero_image_alt": "Luxury Hair and Beauty Hero Image",
+  "about_para3": "At HABC and Beauty, it’s more than just a salon… it’s a community that celebrates strength, identity, and elegance in every crown.",
+  "products_description": "Discover our curated collection of hair extensions, wigs, and beauty essentials.",
+  "cta_closing": "By booking with HABC, you acknowledge and agree to all our salon policies.",
+  "about_title": "About HABC and Beauty.",
+  "about_image": "/uploads/whatsapp-image-2025-10-26-at-22.26.12_47e36dd8.jpg",
+  "cta_title": "Our Policies",
+  "gallery_title": "jjj",
+  "hero_height": "h-[60vh]",
+  "cta_description": "Please take a moment to review our salon policies before booking your appointment. These guidelines ensure we provide the best experience for every client.\n\n• Pricing\nAll listed prices are starting prices. Additional charges may apply depending on your hair’s condition, length, and density.\n\n• Hair Preparation\nPlease ensure your hair is fully detangled before your appointment, unless you’ve booked a detangling service.\nDetangling takes additional time and, if not scheduled in advance, may affect the rest of our day’s appointments\n • Hair Extensions\nWe do not sell hair extensions in the salon. Please bring your own hair for installation.\nIf you need guidance on what type or brand to purchase, feel free to call us for recommendations.\n\n • Business Hours & After-Hours Appointments\nOur working hours are Monday–Saturday, 8:00 AM – 6:00 PM.\nAppointments requested outside of these hours will incur an additional $20 per hour fee.\n\n •Guests\nDue to limited space, we kindly ask that clients DO YOU bring extra guests or children to their appointments.\n\n • Scheduling\nPlease schedule your appointment at a time when you are not rushed or on a tight schedule.\nOur stylists perform best when they can focus and work without pressure.\n\n • Sisterlocs Services\n\t\tSisterlocs reties start at $200 and include a shampoo if done within six weeks.\n\t\tNew Sisterlocs clients must provide proof of their last retie or installation date.\n\t\tA $20 fee will be added for each additional week beyond the six-week window.\n\t\tIf you were previously an HABC Sisterlocs client but later switched to another loctician, we cannot take you back as a client, unless your hair was maintained outside the country (for example, during travel to Africa).\n\n •Cancellations & Lateness\n\t\tCancellations made at least 24 hours in advance are eligible for a full refund.\n\t\tCancellations made less than 24 hours before the appointment will be charged a 50% cancellation  fee.\n\t\tAppointments will automatically cancel if a client is more than 15 minutes late.\n\t\tIn such cases, no refund will be issued if a deposit was made.\n\t\tThe service may still proceed if a late fee (30% of the service total) is paid.\n\n Punctuality and preparation allow us to serve you and other clients efficiently.\n",
+  "featured_services": [
+    {
+      "title": "Hair Styling",
+      "description": "Professional cuts, coloring, and treatments for every style.",
+      "price": "From $100",
+      "image": "/uploads/bataa.jpg"
+    },
+    {
+      "title": "Beauty Services",
+      "description": "Facials, lashes, brows, and makeup for flawless beauty.",
+      "price": "From 60$",
+      "image": "/uploads/facials-1.jpg"
+    }
+  ],
+  "gallery_description": "jjj",
+  "hero_title": "Luxury Hair & Beauty, Redefined",
+  "about_image_alt": "Caroline",
+  "reviews_title": "Testimonials",
+  "featured_products": [
+    {
+      "name": "Premium Hair Extensions ",
+      "price": "From $200",
+      "description": "Natural looking, Comfortable fit ",
+      "image": "/uploads/perma.jpg"
+    },
+    {
+      "name": "Beauty Kit ",
+      "price": "From 100",
+      "description": "Our beauty kit will make you look stunning Beautiful ",
+      "image": "/uploads/beauty-.jpg"
+    },
+    {
+      "name": "Lace Wigs ",
+      "price": "From $300",
+      "description": "Human Hair ",
+      "image": "/uploads/lace-wig-.jpg"
+    }
+  ],
+  "hero_image": "/uploads/screenshot-880-.png",
+  "reviews_description": ".",
+  "reviews": [
+    {
+      "name": "lilian Osodo",
+      "rating": 5,
+      "comment": "Caro is a true hair professional with abundant love for hair and beauty. She's pleasant, respectful, knowledgeable and very skilled at her work.\nShe gives excellent suggestions for suitable hairstyles for different hair types. The location of HABC is convenient, safe, clean, classy with ample parking",
+      "date": "3 weeks ago"
+    },
+    {
+      "name": "levin oyugi",
+      "rating": 5,
+      "comment": "HABC has a calm and welcoming atmosphere, carol professional is on another level she will take time to advice you on how to take care of your hair and to maintain the style.",
+      "date": "3 weeks agio"
+    },
+    {
+      "name": " celestine orondo",
+      "rating": 5,
+      "comment": "Caroline offers services for all hair types and she’s really good at what she does! The salon has a nice, clean, and welcoming environment too. Highly recommend!",
+      "date": "3 weeks ago"
+    }
+  ],
+  "hero_subtitle": "Experience the art of transformation",
+  "products_title": "Shop Premium Products",
+  "hero_spacing": "py-4 md:py-8 px-6 bg-background",
+  "stats": [
+    {
+      "number": "15+",
+      "title": "Years Experience",
+      "description": "Trusted expertise in hair and beauty"
+    },
+    {
+      "number": "5000+",
+      "title": "Happy Clients",
+      "description": "Transformations delivered with care"
+    },
+    {
+      "number": "100%",
+      "title": "Premium Products",
+      "description": "Only the finest quality brands"
+    },
+    {
+      "number": "★★★★★",
+      "title": "5-Star Rated",
+      "description": "Consistently excellent reviews"
+    }
+  ],
+  "about_para1": "Welcome to HABC and Beauty, a professional salon suite founded and run by Caroline, located in the heart of Frisco, Texas.\n\nAt HABC, we specialize in healthy hair care for Black women, focusing on styles that protect, restore, and enhance natural beauty, from chemical services, custom wig installs and sew-ins to scalp treatments and nourishing maintenance routines. Every service is designed to help your hair flourish, whether you wear it natural or styled.\n\n"
+}

@@ -1,0 +1,453 @@
+{
+  "hero_title": "Our Services",
+  "hero_height": "h-[60vh]",
+  "hero_spacing": "py-8 px-6 bg-background",
+  "hero_image": "/uploads/screenshot-881-.png",
+  "hero_image_alt": "Salon Services Hero",
+  "intro": "Transform your look with our expert hair care, styling, and beauty services. All prices listed are starting prices and may vary depending on your hair length, texture, and condition.",
+  "disclaimer": "Please Note: All prices shown are starting prices. Final pricing depends on your hair length, hair type, and hair condition. Consultation recommended for accurate pricing ",
+  "categories": [
+    {
+      "id": "hair-care",
+      "icon": "Scissors",
+      "title": "Hair Care Services",
+      "subtitle": "Transform your look with our expert hair care and styling services.",
+      "services": [
+        {
+          "title": "Silk Press",
+          "price": "$150 and up",
+          "description": "$150.00\nSilk press is a hair service that includes cleansing, conditioning, pressing, and styling, with trims also provided. It usually takes around 1 hour and 30 minutes to complete, and the cost is  starts  from $150\n\n",
+          "duration": "1 hour 30 minutes",
+          "image": "/uploads/silk-press.jpg"
+        },
+        {
+          "title": "Shampooing Only",
+          "price": "$50 and up",
+          "description": "$50\nHair is washed clean and conditioned.",
+          "image": "/uploads/shampoo-.jpg"
+        },
+        {
+          "title": "Deep Condition Only",
+          "price": "$70 and up",
+          "description": "$70 \nOur Deep Condition Only service offers a rejuvenating treatment for your hair, leaving it nourished and shiny. With prices customized to suit your hair type and length, you can enjoy the benefits of a deep condition without the need for additional styling.\n\n",
+          "image": "/uploads/deep.jpg"
+        },
+        {
+          "title": "Trim",
+          "price": "$30 and up",
+          "description": "$30 \nOur trim service provides precise and meticulous trimming of hair or other materials to achieve the desired length or shape, ensuring a clean and polished look. With our skilled experts, you can expect accurate trim results that enhance your style and appearance.",
+          "image": "/uploads/trin.jpg"
+        },
+        {
+          "title": "Relaxing Hair, Deep Condition and Trim",
+          "price": "$200 and up",
+          "description": "$200 and up\nRelaxing hair, deep condition, and trim service includes the use of high-quality products for retouching, deep conditioning, and trimming the hair. These professional products ensure a thorough and effective treatment, leaving your hair refreshed, nourished, and beautifully styled. Please note that the price varies depending on the hair type, lengths and growth.",
+          "image": "/uploads/relaxing.jpg"
+        },
+        {
+          "title": "Perm/Curly Kit",
+          "price": "$250 and up",
+          "description": "$250 and up\nThe Perm/Curly kit service provides a lasting solution for beautiful curls, whether your hair is naturally straight or kinky. With results that can last 3 to 5 months, this service includes a deep conditioning treatment, a trim, and pricing tailored to the length of your hair. Contact us for a consultation to see if this service is right for you and promote healthy hair growth.",
+          "duration": "3–5 months lasting results",
+          "image": "/uploads/perm-curly-.jpg"
+        },
+        {
+          "title": "Consultation",
+          "price": "$20",
+          "description": "$20\nComprehensive consultation to understand your hair needs, pricing, and recommended treatments.",
+          "image": "/uploads/lace-wig-.jpg"
+        }
+      ]
+    },
+{
+  "id": "dreadlocks",
+  "title": "Dreadlocks & Loc Services",
+  "icon": "Scissors",
+  "styled_description": "<em class='text-dark-peach-cream'>Professional loc services including maintenance, retwists, and styling.</em>",
+  "services": [
+        {
+          "title": "Traditional locs retwist/retighten",
+          "price": "$200.00 and up",
+          "description": "$200.00 and up\nOur skilled professionals offer a personalized consultation for our Traditional locs retwist/retighten service, ensuring that your locs are refreshed and maintained to perfection. With prices starting at $200, the cost may vary depending on hair length and type, and please note that wash service is not included.",
+          "image": "/uploads/retie.jpg"
+        },
+        {
+          "title": "Traditional locs instal",
+          "price": "$350 and up",
+          "description": "$350 and up\nGet the traditional locs installation you desire with a personalized one-on-one consultation to determine the price based on your hair length and type, starting at $350. Please note that the wash service is not included.",
+          "image": "/uploads/install.jpg"
+        },
+        {
+          "title": "Sisterlocs/microlocs retwist/retighten",
+          "price": "$200 and up",
+          "description": "$200 and up\nThe Sisterlocs/Microlocs retwist/retighten service focuses on maintaining and revitalizing your locs, particularly for regrowth every six weeks. A consultation is necessary for new clients to assess hair condition, with prices starting at $200, which includes shampooing; additional fees apply for significant regrowth beyond the six-week period, and styling services are not included.",
+          "image": "/uploads/siz.jpg"
+        },
+        {
+          "title": "Sisterlocs install",
+          "price": "$900 and up",
+          "description": "$900 and up\nOur sisterlocs installation service offers a personalized consultation to determine the price based on hair length and density, with a starting rate of $900 for hair up to 4 inches in length. Each additional inch incurs a $50 fee, ensuring a custom pricing structure that caters to your unique hair needs. While the service package does not include a free hair shampooing, we gladly offer a shampooing service using the appropriate products to enhance your experience.\n\n",
+          "image": "/uploads/sis-install.jpg"
+        },
+        {
+          "title": "Temporary Locs installation",
+          "price": "$300 and up",
+          "description": "$300 and up\nGet temporary locs installed by our expert stylists at affordable prices starting at $300 for medium-sized locs. Book a consultation to determine the final cost based on your hair length and density. Plus, enjoy a complimentary hair shampooing with our service package.",
+          "image": "/uploads/bataa.jpg"
+        },
+        {
+          "title": "Locs styling",
+          "price": "$30.00 and up",
+          "description": "$30.00 and up\nLocs styling services begin at $20 for sisterlocs and microlocs, and $30 for dreadlocs, and up. We offer great techniques to ensure your locs are beautifully styled and maintained, catering to your individual preferences and hair type.",
+          "image": "/uploads/hair-11.jpg"
+        },
+        {
+          "title": "Permanent Loc Extension Instant Installation",
+          "price": "$800.00",
+          "description": "$800.00\nOur prices are starting prices and may vary.\nThis service includes instant loc extension installation for permanent dreadlocks. Once installed, they are not meant to be taken down.",
+          "image": "/uploads/perma.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hair-color",
+      "icon": "Palette",
+      "title": "Hair Color Services",
+      "subtitle": "Enhance your style with vibrant color transformations.",
+      "services": [
+        {
+          "title": "Color consultation/strand test",
+          "price": "Free",
+          "description": "Free\nA color consultation helps because the hairstylist gets to see and understand the hair condition before the service, and being able to give a satisfying result.\nunless it is black color, any other color needs consultation before actual application",
+          "image": "/uploads/color.jpg"
+        },
+        {
+          "title": "Black Color",
+          "price": "$150 and up",
+          "description": "$150 and up\nIs the process of using a dye or tint to change the color of your hair to cover up the grey, or for cosmetic purposes. This service includes deep conditioning, blow drying and styling the hair after wash.\n\n\n",
+          "image": "/uploads/black-color.jpg"
+        },
+        {
+          "title": "Full Highlight and Color",
+          "price": "$100 and up",
+          "description": "$100 and up\nAn all over foil high lights and one tone demi, semi, or permanent color.\nThe service fee is $100 per application. The service includes blow drying and styling the hair after wash.\nUnless it is black color, any other color services needs consultation before the actual application",
+          "image": "/uploads/full-highlight.jpg"
+        },
+        {
+          "title": "Partial Highlight and Color",
+          "price": "$100 and up",
+          "description": "$100 and up\nPartial highlights covering approximately 1/2 of the head and all over permanent or semi permanent color of a client's choice.\nThe fee is per application.\nUnless it is black color, any other color service needs consultation before the actual application",
+          "image": "/uploads/color.jpg"
+        }
+      ]
+    },
+    {
+      "id": "blowout",
+      "icon": "Wind",
+      "title": "Blowout Services",
+      "subtitle": "Smooth, shiny, and voluminous hair styles for any occasion.",
+      "services": [
+        {
+          "title": "Thorough Blowout",
+          "price": "$100 and up",
+          "description": "$100 and up\nThe hair is deep conditioned, and thoroughly blown out to a desired style leaving the hair shiny and glossy.\n\n",
+          "image": "/uploads/blow-out.jpg"
+        },
+        {
+          "title": "Basic Blowout and Curls",
+          "price": "$100 and up",
+          "description": "$100 and up\nThe hair is deep conditioned, and blown out and then curled to a desired style using a curling iron.\n\n",
+          "image": "/uploads/basic.jpg"
+        }
+      ]
+    },
+    {
+      "id": "wigs",
+      "icon": "User",
+      "title": "Wig Services",
+      "subtitle": "Custom creations, revamps, and flawless installations.",
+      "services": [
+        {
+          "title": "Wig Revamp",
+          "price": "$120 and up",
+          "description": "$120 and up\nAn already worn wig is washed, deep conditioned, and styled. I request my clients to give me a 3 days interval time to work on the wig.",
+          "image": "/uploads/hair6.jpg"
+        },
+        {
+          "title": "Custom Made Frontal Wig (no install)",
+          "price": "$180 and up",
+          "description": "$180 and up\nYou must provide your own hair.\nCustom Made Wig using Frontal and Bundles. This service requires an HD or Transparent Lace.\nInstall is included.\nYou must bring hair 3 days before your pick up time.",
+          "image": "/uploads/lace-wig-.jpg"
+        },
+        {
+          "title": "Custom Made Closure Wig (no install)",
+          "price": "$200 and up",
+          "description": "$200 and up\nYou must provide your own hair.\nCustom Made Wig using Frontal and Bundles. This service requires an HD or Transparent Lace.\nInstall is included.\nYou must bring hair 3 days before your pick up time.",
+          "image": "/uploads/wig-8.jpg"
+        },
+        {
+          "title": "Lace Frontal Wig Install",
+          "price": "$280 and up",
+          "description": "$280 and up\nYour hair is cornrowed. Wig sewed down along the sides/back and the front is secured with adhesive\n(if wanted) or with an elastic band.\nThis service requires an HD or Transparent lace wig.\nDeep conditioning is included in this service.\n\n",
+          "image": "/uploads/lace-wig-.jpg"
+        },
+        {
+          "title": "Lace Closure Wig Install",
+          "price": "$200 and up",
+          "description": "$200 and up\nYour hair is cornrowed. Wig sewed down along the sides/back and the front is secured with adhesive\n(if wanted) or with an elastic band.\nThis service requires an HD or Transparent lace wig.\nDeep conditioning is included in this service.",
+          "image": "/uploads/hair6.jpg"
+        },
+        {
+          "title": "Custom Made Frontal Wig + Install",
+          "price": "$350 and up",
+          "description": "$350 and up\nYou must provide your own hair.\nCustom Made Wig using Frontal and Bundles. This service requires an HD or Transparent Lace.\nInstall is included.\nYou must bring hair 3 days before your appointment, the appointment time you schedule is for the actual install.\nYour hair is deep conditioned and cornrowed before wig install.",
+          "image": "/uploads/dodoo3.jpg"
+        },
+        {
+          "title": "Custom Made Closure Wig + Install",
+          "price": "$400 and up",
+          "description": "$400 and up\nYou must provide your own hair.\nCustom Made Wig using Frontal and Bundles. This service requires an HD or Transparent Lace.\nInstall is included.\nYou must bring hair 3 days before your appointment, the appointment time you schedule is for the actual install.\nYour hair is deep condoned and cornrowed before wig install.",
+          "image": "/uploads/dodoo-1.jpg"
+        },
+        {
+          "title": "Wig or Lace Dropping/Picking",
+          "price": "Free",
+          "description": "Book for the time you are available to drop or pick up the wig once it's been revamped. Please note, i request clients to give me an interval of 3 days on a wig so that I have enough time to work on it properly within my other appointments. A full payment is to be made for the wigs during droppings.",
+          "image": "/uploads/hair-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "microlinks",
+      "icon": "Link2",
+      "title": "Microlinks Services",
+      "subtitle": "Seamless extensions that blend perfectly with your natural hair.",
+      "services": [
+        {
+          "title": "Microlink Consultation",
+          "price": "$40",
+          "description": "$40\nA 20mins consultation is required at a $40, which is different from the service fee.\nThis is to help you understand the service, the right extension to buy plus where to buy the good type of extension that matches your hair texture, and what are the advantages of the hairstyle.",
+          "image": "/uploads/micro-inst-.jpg"
+        },
+        {
+          "title": "Microlink Extension Removal",
+          "price": "$100 and up",
+          "description": "$100 and up\nThe process includes a wash, deep condition and blowout.\nDeep conditioning is included in the service.",
+          "image": "/uploads/klip.jpg"
+        },
+        {
+          "title": "Microlink Installation",
+          "price": "$500 and up",
+          "description": "$500 and up\nHair has to be heathy around the perimeter and long enough to cover the installed extensions.\nThe charge on the service is a starting price, for only labor, for 2 bundles of I-tip. You provide your extensions.\nAdditional bundles can be added on to hair as per client request for extra fullness for $50 each. Styling is not included in the service.\nDeep conditioning is included in this service.",
+          "image": "/uploads/micro-inst-.jpg"
+        },
+        {
+          "title": "Microlink Maintenance",
+          "price": "$100 and up",
+          "description": "$100 and up\nMicrolinks maintenance involves assessing the current condition and growth of your Microlinks to determine the necessary upkeep. The starting price listed is just an estimate, so please remember to discuss the actual cost based on the specific work required on your Microlinks.",
+          "image": "/uploads/styloo.jpg"
+        }
+      ]
+    },
+    {
+      "id": "braiding",
+      "icon": "Grid",
+      "title": "Braiding Services",
+      "subtitle": "Protective and stylish braids for all ages and preferences.",
+      "services": [
+        {
+          "title": "Braided Hair Undo",
+          "price": "$60 and up",
+          "description": "$60 and up\nThis service includes undoing of braided hair only.\nDeep conditioning is included in this service.",
+          "image": "/uploads/styling-one-.jpg"
+        },
+        {
+          "title": "Crotchet Braids",
+          "price": "$200 and up",
+          "description": "$200 and up\nPrices for crotchet braid extensions vary based on the presence of loops and the desired style, with costs starting at $200. Ensure an ample supply of extensions to achieve the desired look, prioritizing having more rather than fewer pieces.\nWash or extensions is not included in the price\n\n",
+          "image": "/uploads/full-highlight.jpg"
+        },
+        {
+          "title": "Bohemian Box Braids",
+          "price": "$250 and up",
+          "description": "$250 and up\nBohemian Box Braids offer a stylish twist on classic box braids, featuring loose and curly ends for added volume and a fuller appearance. With various styling options available, clients can customize their look to suit their preferences. Pricing starts at $250 and does not include extensions or shampooing services.\n\n",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-22.59.53_a3316e8c.jpg"
+        },
+        {
+          "title": "Twist Out",
+          "price": "$200 and up",
+          "description": "$200 and up\nSingle-strand or two-strand Bantu knots or flat twists are placed all throughout damp hair. Giving hair enough time to dry is important when creating this style. Price and duration depends on the size and length of hair. Deep conditioning is included in the service.",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.02.10_f801dee5.jpg"
+        },
+        {
+          "title": "Adult Cornrows",
+          "price": "$80 and up",
+          "description": "$80 and up\nAdult cornrows services provide a range of styles in various sizes and lengths, with the option to incorporate extensions for added flair. Starting at $80, the price varies based on the chosen style and length; please note that two packs of hair extensions are included, but shampooing is not part of the service.",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.05.17_6aa67aaa.jpg"
+        },
+        {
+          "title": "Kids Cornrows and Braids",
+          "price": "$120 and up",
+          "description": "$120 and up\nKids Cornrows and Braids provides a diverse selection of cornrow and braid styles in various sizes and lengths, starting at $120 and tailored to your child's preferences. Our services include both simple designs and intricate styles, with options for extensions available at an additional cost, while please note that washing services is NOT included, but 2 packs of hair extensions is included",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.09.15_7919772b.jpg"
+        },
+        {
+          "title": "Box Braids",
+          "price": "$180 and up",
+          "description": "$180 and up\nOur Box braids service offers a variety of sizes and lengths to choose from, with prices starting at $180. Please note that the price may vary depending on the length and size you choose, and that a wash or extensions is not included in the service.",
+          "image": "/uploads/bohemian-.jpg"
+        },
+        {
+          "title": "Faux Locs",
+          "price": "$250 and up",
+          "description": "$250 and up\nFaux locs are a versatile and stylish protective hairstyle that mimics the appearance of traditional dreadlocks without the commitment. Please note that our prices are starting price.\nDeep conditioning is not included on the service and we do not provide extensions for this services.\n\n",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.12.23_f7d26524.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Weaving Services",
+      "icon": "Layers",
+      "description": "Beautiful weave installations and styling tailored to your look.",
+      "services": [
+        {
+          "title": "Weave hair undo",
+          "price": "$60 and up",
+          "description": "$60 and up\nThis is to be done in person.",
+          "image": "/uploads/hair-7.jpg"
+        },
+        {
+          "title": "frontal quick weave",
+          "price": "$200 and up",
+          "description": "$200 and up\nFrontal will be sewed down to the sides and back and adhered at the front (if wanted) or secured using an elastic band. Wefts in the back will be applied using bonding glue.\nDeep conditioning is included in this Service.",
+          "image": "/uploads/dodoo-1.jpg"
+        },
+        {
+          "title": "closure quick weave",
+          "price": "$250.00",
+          "description": "$250.00\nclosure will be sewed down to the sides and back and adhered at the front (if wanted). wefts in the back will be applied using bonding glue.\nDeep conditioning is included in this Service.",
+          "image": "/uploads/lace-wig-.jpg"
+        },
+        {
+          "title": "Leave out quick weave",
+          "price": "$250.00 and up",
+          "description": "$250.00 and up\nDeep conditioning is included in this service.\nThen, a clients hair is either braided down and protected from all glue with the help of wrapping papers and stocking cap or the hair is held up using protective glue. a bob cut is included.",
+          "image": "/uploads/hair6.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Sew-in Services",
+      "icon": "Needle",
+      "description": "Neat, long-lasting sew-ins for versatile and beautiful hairstyles.",
+      "services": [
+        {
+          "title": "Traditional sew-in",
+          "price": "$200",
+          "description": "$200\nThe hair extension is fully installed so all natural hair is covered using the extension without closure or frontal. Deep conditioning is included in this service.",
+          "duration": "1hr 30 mins",
+          "image": "/uploads/dodoo3.jpg"
+        },
+        {
+          "title": "Sew-in consultation",
+          "price": "$20.00",
+          "description": "$20.00\nthis is done in person.",
+          "image": "/uploads/dodoo3.jpg"
+        },
+        {
+          "title": "Pixie short bob cut sew-in",
+          "price": "$300.00 and up",
+          "description": "$300.00 and up\nThe Pixie short bob cut sew-in service features a stylish, seamless quick weave or regular sewin that requires no leave out, lace closure, or frontal, ensuring a sleek and polished look. Additionally, a deep conditioning treatment is included to enhance the health and shine of your hair, leaving you with a vibrant and fresh finish. Hair extension is not included in the service.",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.24.56_ede9e872.jpg"
+        },
+        {
+          "title": "lace closure sew-in",
+          "price": "$250 and up",
+          "description": "$250 and up\nyou must provide your own hair. the process requires a HD or transparent lace closure and 3 bundles of hair. the natural hair is braided down and the closure is sewed at the back and sides and the front is secured using an elastic band or adhesive, as a client chooses.\nany extra bundle is +$25.00 each.\nDeep conditioning is included in this Service.",
+          "image": "/uploads/whatsapp-image-2025-10-09-at-13.20.34_4cf8202e.jpg"
+        },
+        {
+          "title": "invisible sew-in",
+          "price": "$300.00 and up",
+          "description": "$300.00 and up\nall hair braided down with a clear parting, and the bundles are sewed on with the parting remaining visible. two to three bundles of hair are required for this process.\nany extra bundle will be a +$25.00 each.\nDeep conditioning is included in this Service.",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.32.37_14a6f011.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Massage Services",
+      "icon": "Spa",
+      "description": "Relax and unwind with soothing massage treatments tailored to your needs.",
+      "services": [
+        {
+          "title": "Swedish Massage",
+          "price": "$100.00 and up",
+          "description": "age: This classic massage technique uses long, flowing strokes to promote relaxation, improve circulation, and alleviate muscle tension.\n\n",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.43.13_2d38d116.jpg"
+        },
+        {
+          "title": "Deep tissue massage",
+          "price": "$120 and up",
+          "description": "Ideal for targeting chronic muscle tension, this massage involves applying firm pressure to release knots and adhesions in deeper layers of muscle and connective tissues.\n\n",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.43.13_2d38d116.jpg"
+        },
+        {
+          "title": "Chair massage",
+          "price": "$60.00 and up",
+          "description": "A convenient and shorter massage performed while seated in a specially designed chair, focusing on relieving tension in the neck, shoulders, back, and arms.",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.43.13_2d38d116.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Bridal Services",
+      "icon": "Heart",
+      "description": "Perfect bridal styling for your special day, including trials and touch-ups.",
+      "services": [
+        {
+          "title": "Bridal consultation",
+          "price": "Free",
+          "description": "Pre-wedding consultation to discuss bridal style, accessories, and timeline.",
+          "image": "/uploads/wig-8.jpg"
+        },
+        {
+          "title": "Brides hair",
+          "price": "$300 and up",
+          "description": "This service offers professional hairstyling for brides, with prices based on the desired style chosen. If the service is required at the wedding venue, there may be an additional charge. To ensure a punctual appointment, it is recommended for the bride to allocate sufficient time.",
+          "image": "/uploads/hair-7.jpg"
+        },
+        {
+          "title": "Bridesmaids hair",
+          "price": "$150.00 and up",
+          "description": "Our Bridesmaids hair service offers customized hairstyling options to perfectly match each bridesmaid's desired look. With flexible pricing options that cater to individual preferences, every bridesmaid can achieve their dream hairstyle on the wedding day",
+          "image": "/uploads/whatsapp-image-2025-10-24-at-23.12.23_f7d26524.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Other Services",
+      "icon": "MoreHorizontal",
+      "description": "Additional beauty and care services to complete your look.",
+      "services": [
+        {
+          "title": "Shampoo only",
+          "price": "$40 and up",
+          "description": "Deep shampooing and conditioning for a clean, refreshed scalp.",
+          "image": "/uploads/deep.jpg"
+        },
+        {
+          "title": "Trim only",
+          "price": "$50 and up",
+          "description": "Hair trimming to remove split ends and promote healthy growth.",
+          "image": "/uploads/whatsapp-image-2025-10-09-at-13.20.34_4cf8202e.jpg"
+        },
+        {
+          "title": "Consultation (any service)",
+          "price": "Free",
+          "description": "Discuss your style goals, hair type, and service options with an expert stylist.",
+          "image": "/uploads/styling-one-.jpg"
+        }
+      ]
+    }
+  ]
+}

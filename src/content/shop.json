@@ -1,0 +1,60 @@
+{
+  "hero_title": "Shop Our Products",
+  "hero_height": "h-[60vh]",
+  "hero_spacing": "py-8 px-6 bg-background",
+  "hero_image": "/uploads/screenshot-880-.png",
+  "hero_image_alt": "Shop Products Hero Image",
+  "intro": "Explore our curated collection of premium hair extensions, wigs, and beauty essentials. All products are carefully selected for quality and performance.",
+  "categories": [
+    {
+      "title": "Hair Extensions",
+      "description": "Premium quality hair extensions for every style",
+      "products": [
+        {
+          "name": "Premium Hair Extensions",
+          "price": "$199",
+          "description": "100% human hair, salon quality",
+          "image": "/uploads/hair-extension-.jpg"
+        },
+        {
+          "name": "Luxury Lace Wigs",
+          "price": "From $200",
+          "description": "Natural looking, comfortable fit",
+          "image": "/uploads/lace-wig-.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Beauty Products",
+      "description": "Professional grade beauty essentials",
+      "products": [
+        {
+          "name": "Beauty Treatment Kit",
+          "price": "$89",
+          "description": "Professional grade skincare essentials",
+          "image": "/uploads/beauty-.jpg"
+        }
+      ]
+    }
+  ],
+  "featured_products": [
+    {
+      "name": "Premium Hair Extensions",
+      "price": "$199",
+      "description": "100% human hair, salon quality",
+      "image": "/uploads/hair-extension-.jpg"
+    },
+    {
+      "name": "Luxury Lace Wigs",
+      "price": "From $200",
+      "description": "Natural looking, comfortable fit",
+      "image": "/uploads/lace-wig-.jpg"
+    },
+    {
+      "name": "Beauty Treatment Kit",
+      "price": "$89",
+      "description": "Professional grade skincare essentials",
+      "image": "/uploads/beauty-.jpg"
+    }
+  ]
+}

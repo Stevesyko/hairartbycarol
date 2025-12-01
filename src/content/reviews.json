@@ -1,0 +1,113 @@
+{
+  "total_reviews": 50,
+  "hero_image_alt": "Client Testimonials Hero Image",
+  "hero_height": "h-[60vh]",
+  "hero_title": "Client Reviews",
+  "testimonials": [
+    {
+      "quote": "HABC & Beauty transformed not just my hair, but my confidence. Caroline is a true artist!",
+      "author": "Maria Rodriguez",
+      "rating": 5
+    },
+    {
+      "quote": "The best salon experience I've ever had. Professional, clean, and the results are always amazing.",
+      "author": "Jennifer Lee",
+      "rating": 5
+    }
+  ],
+  "hero_image": "/uploads/owaaadaa.jpg",
+  "reviews": [
+    {
+      "id": "2",
+      "name": "Beverly Aligwekwe",
+      "rating": 5,
+      "comment": "Excellent place to be for your hair in a very professional relaxed atmosphere. World class beauty salons enjoy it",
+      "date": "2025-10-13T14:00:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "3",
+      "name": " Masambaga Kichuna",
+      "rating": 5,
+      "comment": "It was nice experience my hair was perfectly done,see you soon HABC you are my number one hair doctor.",
+      "date": "2025-09-10T17:00:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "6",
+      "name": " Getrude Gonzo",
+      "rating": 5,
+      "comment": "Very professional and neat. She does her work with passion.",
+      "date": "2025-10-12T16:16:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "9",
+      "name": "liz Hua",
+      "rating": 5,
+      "comment": "Excellent customer service. Was satisfied with what i got. Keep it up",
+      "date": "2025-10-09T22:20:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "11",
+      "name": "Zipporah Mokhaneli",
+      "rating": 5,
+      "comment": "This has to be the best Salon I have ever went to all my life❤️ their service is top tier. Quality hair and treatment, I have personally reached a point where I wouldn't want anyone to touch my hair except Caroline",
+      "date": "2025-10-15T23:22:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "12",
+      "name": " Eva Maina",
+      "rating": 5,
+      "comment": "Carol is very friendly and informative....with my sisterlock journey she has done an amazing job.....keep up carol...",
+      "date": "2025-09-18T18:24:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "13",
+      "name": "Yvonne Jurarim",
+      "rating": 5,
+      "comment": "I had a great experience with my deep conditioning and silk press with Carol! You can truly tell she has a passion for what she does—it shows not only in her work but in how she cares for her clients. If you're looking for a stylist who genuinely loves what she does and takes pride in her craft.",
+      "date": "2025-01-03T15:25:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "14",
+      "name": "Wairimu Muchungi",
+      "rating": 5,
+      "comment": "Carol is dedicated to her job. Always on the dot when it comes to time. Her work is superb",
+      "date": "2024-02-08T11:27:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "15",
+      "name": " Janet Kenda",
+      "rating": 5,
+      "comment": "I installed my sister locks in December while I was in Kenya 🇰🇪. I wasn't sure who would maintain them once I returned to Texas. However, I didn't have to look far. I encountered Carol at our Kenya Women's group, which had rave reviews of her work. She did a great job with me and was such great company. Needless to say, I am sold!\n",
+      "date": "2025-01-03T09:29:00.000+03:00",
+      "source": "google",
+      "verified": true
+    },
+    {
+      "id": "17",
+      "name": "Wendy Lewis",
+      "rating": 5,
+      "comment": "Caroline is an excellent hair stylist who listens to her clients. She has done the crochet style and a full weave on my hair, and each style has been perfect.",
+      "date": "2025-01-31T10:00:00.000+03:00",
+      "source": "google",
+      "verified": true
+    }
+  ],
+  "hero_spacing": "py-2 px-6 bg-background",
+  "average_rating": 5
+}

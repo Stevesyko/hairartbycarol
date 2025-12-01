@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HABC and Beauty - Luxury Hair & Beauty Salon</title>
+
+    <meta
+      name="description"
+      content="Luxury Hair & Beauty, Redefined. Professional salon services, premium hair extensions, wigs, and beauty treatments."
+    />
+    <meta name="author" content="HABC and Beauty" />
+
+    <meta
+      property="og:title"
+      content="HABC and Beauty - Luxury Hair & Beauty Salon"
+    />
+    <meta
+      property="og:description"
+      content="Experience luxury beauty services - Hair styling, coloring, extensions, facials, lashes, and more."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://lovable.dev/opengraph-image-p98pqg.png"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@habc_beauty" />
+    <meta
+      name="twitter:image"
+      content="https://lovable.dev/opengraph-image-p98pqg.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3050411909259853"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- React app root -->
+    <div id="root"></div>
+
+    <!-- Load your React app -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Ensure Decap CMS loads only on /admin route -->
+    <script>
+      if (window.location.pathname.startsWith("/admin")) {
+        const script = document.createElement("script");
+        script.src =
+          "https://unpkg.com/decap-cms@3.4.1/dist/decap-cms.js";
+        script.onload = () => {
+          if (window.CMS) {
+            window.CMS.init();
+          } else {
+            console.error("Decap CMS failed to initialize");
+          }
+        };
+        document.body.appendChild(script);
+      }
+    </script>
+  </body>
+</html>

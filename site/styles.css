@@ -1,0 +1,57 @@
+:root{
+  --color-bg: #f9efe6;
+  --color-bg-muted: #fdebd8;
+  --color-text: #111111;
+  --color-accent: #111111;
+  --color-peach: #ffdab9;
+  --color-cream: #fff3e6;
+  --maxw: 1200px;
+  --radius: 12px;
+  --shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+html,body{margin:0;padding:0}
+body{
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+.site-header{position:sticky;top:0;z-index:10;background:linear-gradient(0deg, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), transparent;backdrop-filter:saturate(1.1) blur(6px)}
+.site-header .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{font-family: "Playfair Display", Georgia, serif;font-size:24px;letter-spacing:.5px}
+.accent{color: var(--color-accent)}
+.menu a{margin-left:20px;text-decoration:none;color:#333;font-weight:500}
+.menu a.active, .menu a:hover{color:var(--color-accent)}
+
+.hero{position:relative;overflow:hidden;background: var(--color-cream);padding:96px 0;border-bottom:1px solid rgba(0,0,0,.06)}
+.hero h1{font-family:"Playfair Display", Georgia, serif;font-size: clamp(32px, 6vw, 56px);margin:0 0 12px}
+.hero p{font-size:18px;margin:0 0 28px;color:#444;max-width:720px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{appearance:none;border:0;border-radius:999px;padding:12px 20px;font-weight:600;cursor:pointer;transition:transform .15s ease, background .2s ease, color .2s ease}
+.btn.primary{background:var(--color-accent);color:#fff}
+.btn.primary:hover{transform:translateY(-1px)}
+.btn.outline{background:transparent;color:var(--color-accent);box-shadow: inset 0 0 0 2px var(--color-accent)}
+.btn.outline:hover{background:var(--color-accent);color:#fff}
+
+.section{padding:80px 0}
+.grid{display:grid;gap:24px}
+.grid.services{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;border:1px solid rgba(0,0,0,.06)}
+.card img{width:100%;height:180px;object-fit:cover;display:block}
+.card .pad{padding:18px}
+.card h3{margin:0 0 8px;font-size:20px}
+.card p{margin:0 0 12px;color:#555}
+.price{font-weight:700}
+
+.section.alt{background:var(--color-cream)}
+.section.dark{background:#000;color:#fff;text-align:center}
+.section.dark .btn.outline{color:#fff;box-shadow: inset 0 0 0 2px #fff}
+.section.dark .btn.outline:hover{background:#fff;color:#000}
+
+.site-footer{background:#000;color:#060101;padding:40px 0;margin-top:40px}
+.site-footer .brandline{font-family:"Playfair Display", Georgia, serif;margin-bottom:8px}
+
+@media (min-width: 900px){.hero{padding:120px 0}}

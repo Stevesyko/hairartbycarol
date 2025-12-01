@@ -1,0 +1,53 @@
+{
+  "hero_image_alt": "Stylist Caroline Hero Image",
+  "about_caroline_paragraphs": [
+"Caroline, Founder of HABC & Beauty, was born and raised in Kenya, where she built her name as a celebrity hairstylist in over 15 years; in 2019 she moved to the USA (Texas), pursued her passion by attending cosmetology school, and graduated before founding HABC & Beauty.",
+"With over 21 years of experience in the hair industry, Caroline continues to bring her expertise, creativity, and artistry to every client she serves. She specializes in wigs, sew-ins, chemical treatments, extensions, and locs, always with a focus to enhance the beauty, confidence, and individuality of every woman who sits in her chair.",
+"Caroline’s dedication, skill, and genuine care have made HABC & Beauty a trusted salon for quality, comfort, and transformation. Her exceptional service has earned her five-star ratings across all platforms, reflecting the satisfaction and loyalty of her clients.",
+  "Her mission is simple, to help every client look and feel their absolute best."
+  ],
+  "process_title": "Our Process",
+  "hero_height": "h-[60vh]",
+  "process_description": "Every visit is a personalized journey designed to exceed your expectations.",
+  "about_caroline_para1": "Caroline, Founder of HABC & Beauty, was born and raised in Kenya, where she built her name as a celebrity hairstylist in over 15 years. In 2019, she moved to USA, Texas, pursued her passion by attending cosmetology school, and graduated before founding HABC & Beauty.\n",
+  "hero_title": "Meet Our Stylist Caroline",
+  "about_caroline_para2": "With over 21 years of experience in the hair industry, Caroline continues to bring her expertise, creativity, and artistry to every client she serves. She specializes in wigs, sew-ins, chemical treatments, extensions, and locs, always with a focus to enhance the beauty, confidence, and individuality of every woman who sits in her chair.\n",
+  "about_caroline_para3": "Caroline’s dedication, skill, and genuine care have made HABC & Beauty a trusted salon for quality, comfort, and transformation. Her exceptional service has earned her five-star ratings across all platforms, reflecting the satisfaction and loyalty of her clients.\n\n",
+  "about_caroline_para4": "Her mission is simple, to help every client look and feel their absolute best.",
+  "hero_image": "/uploads/mdosii-1.jpg",
+  "team_title": "Meet Our Stylist",
+  "process_steps": [
+    {
+      "step": 1,
+      "title": "Consultation",
+      "description": "We listen to your vision and assess your needs to create a customized plan. This is where we discuss your goals, preferences, and any concerns to ensure we're aligned on your desired outcome."
+    },
+    {
+      "step": 2,
+      "title": "Personalization",
+      "description": "Our experts tailor treatments and techniques specifically for your unique features, hair type, and lifestyle. We consider everything from your daily routine to special occasions."
+    },
+    {
+      "step": 3,
+      "title": "Transformation",
+      "description": "Experience the artistry as we bring your vision to life with precision and care. Using premium products and advanced techniques, we create stunning results that enhance your natural beauty."
+    },
+    {
+      "step": 4,
+      "title": "After Care",
+      "description": "Receive expert guidance on maintaining your look and scheduling follow-ups. We provide personalized recommendations for at-home care and products to keep your style looking fresh."
+    }
+  ],
+  "team_description": "Caroline is passionate about bringing your vision to life.",
+  "about_caroline_title": "About Caroline",
+  "team": [
+    {
+      "name": "Caroline ",
+      "role": "Master Stylist & Founder",
+      "image": "/uploads/mdosii-1.jpg",
+      "bio": "21+ years of experience. Licensed cosmetologist specializing in custom wigs, locs, and transformative styling. Caroline's expertise spans across various hair types and textures, ensuring every client receives personalized care and stunning results."
+    }
+  ],
+  "hero_subtitle": "jj",
+  "hero_spacing": "py-8 px-6 bg-background"
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Editor - HABC & Beauty</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3050411909259853"
+    crossorigin="anonymous"
+  ></script>
+  <style>
+    .editor { padding: 24px; }
+    .editor .row { display:flex; gap:12px; margin-bottom:12px; }
+    .editor input, .editor textarea { width:100%; padding:10px; border-radius:8px; border:1px solid #ddd; font: inherit; }
+    .editor label { font-weight:600; display:block; margin-bottom:6px; }
+    .stack { display:grid; gap:16px; }
+    .panel { background:#fff; border:1px solid rgba(0,0,0,.06); border-radius:12px; box-shadow: var(--shadow); padding:16px; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">HABC <span class="accent">&</span> Beauty</div>
+      <nav class="menu"><a href="../index.html">View site</a></nav>
+    </div>
+  </header>
+  <main class="editor container">
+    <h1>Front Page Editor</h1>
+    <p>Changes are saved to browser storage. To make them permanent on your host, upload the updated <code>data/content.json</code>.</p>
+    <section class="panel">
+      <h2>Hero</h2>
+      <div class="stack">
+        <div>
+          <label>Title</label>
+          <input id="hero-title" />
+        </div>
+        <div>
+          <label>Subtitle</label>
+          <textarea id="hero-subtitle" rows="3"></textarea>
+        </div>
+        <div class="row">
+          <div style="flex:1">
+            <label>Primary Label</label>
+            <input id="hero-cta1-label" />
+          </div>
+          <div style="flex:1">
+            <label>Primary Link</label>
+            <input id="hero-cta1-href" />
+          </div>
+        </div>
+        <div class="row">
+          <div style="flex:1">
+            <label>Secondary Label</label>
+            <input id="hero-cta2-label" />
+          </div>
+          <div style="flex:1">
+            <label>Secondary Link</label>
+            <input id="hero-cta2-href" />
+          </div>
+        </div>
+        <div class="row">
+          <button class="btn primary" id="save">Save</button>
+          <button class="btn outline" id="reset">Reset to Defaults</button>
+          <button class="btn outline" id="export">Export JSON</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="module">
+    import { DEFAULT_CONTENT, loadContent } from '../app.js';
+
+    let state = structuredClone(DEFAULT_CONTENT);
+
+    async function init() {
+      state = await loadContent();
+      bind();
+    }
+
+    function bind() {
+      document.getElementById('hero-title').value = state.hero.title;
+      document.getElementById('hero-subtitle').value = state.hero.subtitle;
+      document.getElementById('hero-cta1-label').value = state.hero.ctaPrimary.label;
+      document.getElementById('hero-cta1-href').value = state.hero.ctaPrimary.href;
+      document.getElementById('hero-cta2-label').value = state.hero.ctaSecondary.label;
+      document.getElementById('hero-cta2-href').value = state.hero.ctaSecondary.href;
+    }
+
+    function collect() {
+      state.hero.title = document.getElementById('hero-title').value;
+      state.hero.subtitle = document.getElementById('hero-subtitle').value;
+      state.hero.ctaPrimary.label = document.getElementById('hero-cta1-label').value;
+      state.hero.ctaPrimary.href = document.getElementById('hero-cta1-href').value;
+      state.hero.ctaSecondary.label = document.getElementById('hero-cta2-label').value;
+      state.hero.ctaSecondary.href = document.getElementById('hero-cta2-href').value;
+    }
+
+    document.getElementById('save').addEventListener('click', () => {
+      collect();
+      localStorage.setItem('habc-content', JSON.stringify(state));
+      alert('Saved locally. Open the site to preview.');
+    });
+
+    document.getElementById('reset').addEventListener('click', () => {
+      state = structuredClone(DEFAULT_CONTENT);
+      bind();
+      localStorage.removeItem('habc-content');
+      alert('Reset to defaults.');
+    });
+
+    document.getElementById('export').addEventListener('click', () => {
+      collect();
+      const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'content.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    init();
+  </script>
+</body>
+</html>
